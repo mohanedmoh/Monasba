@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgwhite"
+    tools:context=".RequestManager">
+
+    <TextView
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:fontFamily="@font/handlee"
+        android:text="@string/no_data"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/status_linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:weightSum="3">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.25"
+                android:foregroundGravity="center">
+
+                <com.kofigyan.stateprogressbar.StateProgressBar
+                    android:id="@+id/status_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:soundEffectsEnabled="true"
+                    app:spb_animateToCurrentProgressState="true"
+                    app:spb_checkStateCompleted="true"
+                    app:spb_currentStateDescriptionColor="@color/colorPrimary"
+
+                    app:spb_maxStateNumber="three"
+                    app:spb_stateBackgroundColor="#BDBDBD"
+                    app:spb_stateDescriptionColor="@color/secondary_text"
+                    app:spb_stateForegroundColor="@color/colorPrimary"
+                    app:spb_stateLineThickness="7dp"
+                    app:spb_stateNumberBackgroundColor="#808080"
+                    app:spb_stateNumberForegroundColor="#eeeeee"
+                    app:spb_stateNumberIsDescending="false"
+                    app:spb_stateSize="30dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".8"
+                android:background="@android:color/transparent"
+                tools:context=".current_req_status">
+
+                <ProgressBar
+                    android:id="@+id/progressBarCircle"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="230dp"
+                    android:layout_height="230dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/drawable_circle_dark_blue"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="100"
+                    android:progressDrawable="@drawable/drawable_circle_yellow"
+                    android:rotation="-90" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/handlee"
+                        android:gravity="center"
+                        android:text="@string/countdown_exmp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="30sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".9"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <TextView
+                    android:id="@+id/status_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/handlee"
+                    android:gravity="center"
+                    android:text="@string/intro"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/req_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <ListView
+                android:id="@+id/reqTypeList"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/hall_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/hall_details_include"
+                layout="@layout/hall_reservation_bill" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/payment_method"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <include
+                    android:id="@+id/payment_method_include"
+                    layout="@layout/payment_method"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.75"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp">
+
+                    <Button
+                        android:id="@+id/select_payment"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/gradian_background"
+                        android:fontFamily="@font/handlee"
+                        android:text="@string/select"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/seera_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/seera_details_include"
+                layout="@layout/seera_bill" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/limo_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/limo_details_include"
+                layout="@layout/limo_bill" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

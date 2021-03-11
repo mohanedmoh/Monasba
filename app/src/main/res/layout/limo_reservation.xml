@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null">
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/image_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    app:auto_cycle="true"
+                    app:corner_radius="20"
+                    app:delay="0"
+                    app:period="3000" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    app:cardCornerRadius="8dp">
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/handlee"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
+                        android:text="123412"
+                        android:textSize="18sp" />
+                </com.google.android.material.card.MaterialCardView>
+            </RelativeLayout>
+        </LinearLayout>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1.05"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_editbox_border"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.7"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/outlined_ui_date" />
+
+                <TextView
+                    android:id="@+id/reservation_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:gravity="center"
+                    android:text="@string/date_example" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/arrival_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/handlee"
+                android:text="@string/click_to_set_time"
+                android:textColor="@color/secondary_text"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/handlee"
+                android:text="@string/pickup_time"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            style="@style/Divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/departure_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/handlee"
+                android:text="@string/auto_calculate"
+                android:textColor="@color/secondary_text"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/handlee"
+                android:text="@string/dropoff_time"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            style="@style/Divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/handlee"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/zafa_time_note"
+            android:textColor="@color/secondary_text"
+            android:textSize="14sp" />
+
+        <View
+            style="@style/Divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/editboxbg"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/delivery_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/editboxbg"
+                    android:fontFamily="@font/handlee"
+                    android:hint="@string/delivery_address"
+                    android:inputType="textMultiLine|text"
+                    android:lines="2"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

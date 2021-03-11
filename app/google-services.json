@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "570992557781",
+    "firebase_url": "https://monasba-284c5.firebaseio.com",
+    "project_id": "monasba-284c5",
+    "storage_bucket": "monasba-284c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570992557781:android:1acb7ff9b9ddad1bc12c5c",
+        "android_client_info": {
+          "package_name": "com.savvy.monasbat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570992557781-612js4v52f3t9658v11l9episjt1kg4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANGxf0Vo00uQojZuQojI9Ye5w9pPpZnwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570992557781-612js4v52f3t9658v11l9episjt1kg4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

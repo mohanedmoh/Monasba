@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/handlee"
+        android:padding="10dp"
+        android:text="@string/meal_offers"
+        android:textSize="16sp" />
+
+    <org.lucasr.twowayview.TwoWayView
+        android:id="@+id/meals"
+        style="@style/TwoWayView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false" />
+
+    <pl.polak.clicknumberpicker.ClickNumberPickerView
+        android:id="@+id/num_of_meals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        app:integer_priority="true"
+        app:max_value="3000"
+        app:min_value="0"
+        app:picker_corner_radius="10"
+        app:pickers_background_color="@color/colorPrimary"
+        app:step="50"
+        app:swipe_enabled="false"
+        app:value_background_color="@color/colorPrimaryDark"
+        app:value_text_color="@color/white" />
+
+    <View
+        style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+</LinearLayout>

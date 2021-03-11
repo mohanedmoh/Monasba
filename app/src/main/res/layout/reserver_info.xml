@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgwhite"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingTop="15dp"
+    android:paddingRight="40dp"
+    android:paddingBottom="75dp"
+    android:weightSum="4">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/editboxbg"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/name1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@color/editboxbg"
+                android:fontFamily="@font/handlee"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                app:met_underlineColor="@color/colorPrimaryDark" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/editboxbg"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/phone1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/editboxbg"
+                android:fontFamily="@font/handlee"
+                android:hint="@string/phone_hint"
+                android:inputType="phone"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                app:met_underlineColor="@color/colorPrimaryDark" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/editboxbg"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/name2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/editboxbg"
+                android:fontFamily="@font/handlee"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                app:met_underlineColor="@color/colorPrimaryDark" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/editboxbg"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/phone2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/editboxbg"
+                android:fontFamily="@font/handlee"
+                android:hint="@string/phone_other"
+                android:inputType="phone"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                app:met_underlineColor="@color/colorPrimaryDark" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/handlee"
+                android:text="@string/payment_type"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/full"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:checked="true"
+                    android:fontFamily="@font/handlee"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/full"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/parts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/handlee"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/parts"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="15sp" />
+            </RadioGroup>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

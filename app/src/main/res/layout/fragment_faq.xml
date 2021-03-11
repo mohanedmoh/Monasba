@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgwhite"
+    tools:context=".FAQ">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingTop="50dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/hall_info_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="40dp"
+                app:cardUseCompatPadding="true">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ExpandableListView
+                        android:id="@+id/expandableListView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:divider="@color/colorPrimaryDark"
+                        android:dividerHeight="1dp"
+                        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp" />
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

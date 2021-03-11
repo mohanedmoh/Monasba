@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="num_of_people_list">
+        <item>@string/num_of_ppl</item>
+        <item>@string/num1</item>
+        <item>@string/num2</item>
+        <item>@string/num3</item>
+    </string-array>
+</resources>

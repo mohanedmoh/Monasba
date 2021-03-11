@@ -1,0 +1,53 @@
+<resources>
+    <color name="colorPrimary">#ffa600</color>
+    <color name="colorPrimaryDark">#ff6200</color>
+    <color name="colorUnActive">#8c5d52</color>
+    <color name="primary_light">#ff8e75</color>
+    <color name="colorAccent">@color/colorPrimaryDark</color>
+    <color name="primary_text">#1B1B1B</color>
+    <color name="secondary_text">#929291</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="editboxbg">#eae7e7</color>
+    <color name="white">#ffffff</color>
+    <color name="bgwhite">#f8f5f5</color>
+    <color name="success_bg">#e7f3ff</color>
+    <color name="trans60">#1A000000</color>
+    <color name="loading_color">#33000000</color>
+    <color name="bg">#f8f6f6</color>
+    <color name="statusbg">#fcd000</color>
+    <color name="moreinfobg">#ec421e</color>
+    <color name="deletebg">#959595</color>
+    <color name="under_process">#ffd800</color>
+    <color name="started">#0054ff</color>
+    <color name="darkButton">#282828</color>
+    <color name="colorPrimaryPix">@color/colorPrimary</color>
+    <color name="colorPrimaryLightPix">@color/colorPrimaryDark</color>
+
+    <color name="text_focused">#E91E63</color>
+    <color name="text_default">#F8BBD0</color>
+    <color name="text_hint_default">#BDBDBD</color>
+    <color name="line_selected">#E91E63</color>
+    <color name="line_focused">#3F51B5</color>
+    <color name="line_default">#C5CAE9</color>
+    <color name="card">#3F51B5</color>
+    <color name="success_green">#99f128</color>
+    <color name="goldbg">#faebcb</color>
+    <color name="goldtext">#F8D271</color>
+    <color name="bronzebg">#C7CDE4</color>
+    <color name="bronzetext">#7B91E4</color>
+    <color name="silverbg">#faebcb</color>
+    <color name="silvertext">#faebcb</color>
+
+    <color name="editText_background">#1A000000</color>
+    <color name="success_btn_background">#99000000</color>
+    <color name="colorForeground">#ffffff</color>
+    <color name="MPD_primaryColor">@color/colorPrimaryDark</color>
+    <color name="MPD_primaryColorLight">#C5CAE9</color>
+    <color name="MPD_backGroundColor">#FFF</color>
+    <color name="MPD_pickerItemColorUnSelected">#00FFFFFF</color>
+    <color name="MPD_pickerItemColorSelected">@color/colorPrimaryDark</color>
+    <color name="MPD_pickerItemTextColorUnSelected">#444</color>
+    <color name="MPD_pickerItemTextColorSelected">#bbffffff</color>
+    <color name="MPD_pickerSelectedTextColor">#FFF</color>
+</resources>

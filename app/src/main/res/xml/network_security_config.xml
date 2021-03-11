@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">197.254.205.74</domain>
+        <domain includeSubdomains="true">syberpay.test.sybertechnology.com</domain>
+    </domain-config>
+</network-security-config>

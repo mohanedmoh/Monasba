@@ -1,0 +1,199 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="58dp"
+    android:height="56.935dp"
+    android:viewportWidth="58"
+    android:viewportHeight="56.935">
+    <group android:translateY="-4.416">
+        <group android:translateY="4.416">
+            <group android:translateY="-4.416">
+                <path android:pathData="M56.935 55.561H51.048L49.619 41.985 51.2 44.357l0.392 1.962a3.236 3.236 0 1 0 6.067 -2.081l-0.826 -1.653a0.1 0.1 0 0 0 -0.013 -0.016s0 -0.01 0 -0.014L51.027 31.94a0.971 0.971 0 0 0 -0.488 -0.434l-2.615 -1.046a8.62 8.62 0 0 0 2.134 -10.911l-0.5 -4.981a3.819 3.819 0 0 0 2.55 -3.4c0 -2.078 -2.062 -3.777 -4.635 -3.857a5.788 5.788 0 0 0 -10.03 0c-2.573 0.08 -4.635 1.779 -4.635 3.857a3.819 3.819 0 0 0 2.55 3.4l-0.5 4.981A8.618 8.618 0 0 0 37 30.458L34.382 31.5a0.965 0.965 0 0 0 -0.395 0.293L30.73 35.869 26.8 32.721 25.744 30.97a3.649 3.649 0 0 0 -0.652 -0.782V27.576a2.891 2.891 0 0 0 -1.93 -2.717V20.821h0.965a2.9 2.9 0 0 0 2.895 -2.895v-5.79a2.9 2.9 0 0 0 -2.895 -2.895h-3.86a2.9 2.9 0 0 0 -2.895 2.895v5.79a2.9 2.9 0 0 0 2.895 2.895h0.965v4.038a2.891 2.891 0 0 0 -1.93 2.717V31.44a3.585 3.585 0 0 0 1.463 4.509l1.826 1.1 6.415 5.613a2.883 2.883 0 0 0 3.76 0.044l2.7 -2.248L33.871 55.561H17L18.133 53.3a4.822 4.822 0 0 0 3.1 -4.491V46.7a2.888 2.888 0 0 0 -0.965 -5.612H2.895A2.888 2.888 0 0 0 1.93 46.7v2.108a4.822 4.822 0 0 0 3.1 4.491l1.132 2.264H0.965A0.965 0.965 0 0 0 0 56.526v3.86a0.965 0.965 0 0 0 0.965 0.965h55.97a0.965 0.965 0 0 0 0.965 -0.965v-3.86A0.965 0.965 0 0 0 56.935 55.561Zm-35.7 -36.67h-0.965a0.967 0.967 0 0 1 -0.965 -0.965v-5.79a0.967 0.967 0 0 1 0.965 -0.965h0.965ZM55.933 45.1a1.305 1.305 0 1 1 -2.447 0.84l-0.249 -1.246 2.217 -0.554ZM49.5 33.168l5.026 9.214 -1.99 0.5 -3.393 -5.089 -1.4 -5.325Zm-2.118 5.988l1.727 16.4h-13.3l1.726 -16.4Zm-9.459 -1.93l1.422 -5.409c0.039 0.014 0.078 0.025 0.117 0.039 0.194 0.071 0.389 0.14 0.589 0.2 0.076 0.022 0.153 0.04 0.23 0.059 0.184 0.048 0.369 0.095 0.557 0.13 0.095 0.018 0.19 0.029 0.285 0.043 0.175 0.027 0.348 0.056 0.526 0.073 0.124 0.012 0.25 0.013 0.374 0.019 0.147 0.008 0.29 0.022 0.438 0.022s0.291 -0.014 0.438 -0.022c0.125 -0.007 0.25 -0.008 0.374 -0.019 0.178 -0.016 0.351 -0.045 0.526 -0.073 0.095 -0.014 0.19 -0.025 0.285 -0.043 0.188 -0.036 0.372 -0.083 0.557 -0.13 0.076 -0.02 0.153 -0.037 0.23 -0.059 0.2 -0.058 0.4 -0.125 0.589 -0.2 0.039 -0.014 0.078 -0.024 0.117 -0.039L47 37.226ZM34.74 11.171c0 -1.046 1.326 -1.93 2.895 -1.93a1.507 1.507 0 0 1 0.163 0.013l0.155 0.014a0.981 0.981 0 0 0 0.96 -0.582 3.858 3.858 0 0 1 7.094 0 0.973 0.973 0 0 0 0.96 0.582l0.155 -0.014a1.471 1.471 0 0 1 0.162 -0.013c1.569 0 2.895 0.884 2.895 1.93 0 0.771 -0.78 1.508 -1.9 1.794A0.965 0.965 0 0 0 47.562 14l0.587 5.86H36.771L37.357 14a0.965 0.965 0 0 0 -0.722 -1.031C35.52 12.679 34.74 11.942 34.74 11.171ZM35.7 23.716a6.733 6.733 0 0 1 0.285 -1.93h12.94a6.761 6.761 0 0 1 -4.222 8.292l-0.032 0.012a6.7 6.7 0 0 1 -4.433 0l-0.032 -0.012A6.769 6.769 0 0 1 35.7 23.716ZM23.16 11.171h0.965a0.967 0.967 0 0 1 0.965 0.965v5.79a0.967 0.967 0 0 1 -0.965 0.965H23.16Zm-0.965 15.44a0.967 0.967 0 0 1 0.965 0.965v1.677l-0.018 0c-0.023 0 -0.043 -0.014 -0.067 -0.016 -0.053 -0.007 -0.105 0 -0.157 0a3.629 3.629 0 0 0 -0.5 -0.006c-0.084 0 -0.167 0 -0.249 0.015a3.576 3.576 0 0 0 -0.585 0.129c-0.082 0.025 -0.161 0.051 -0.241 0.081 -0.037 0.014 -0.074 0.022 -0.11 0.037V27.576h0A0.967 0.967 0 0 1 22.195 26.611Zm-0.437 7.683a1.678 1.678 0 0 1 -0.634 -2.219c0 -0.008 0.011 -0.013 0.014 -0.02a2.143 2.143 0 0 1 0.125 -0.209 1.44 1.44 0 0 1 0.624 -0.529l0.041 -0.022a1.682 1.682 0 0 1 0.52 -0.139l0.04 0a1.723 1.723 0 0 1 0.525 0.041l0.054 0.013a1.681 1.681 0 0 1 0.517 0.233l0.015 0.008a1.7 1.7 0 0 1 0.489 0.518l0.752 1.254 -1.83 1.83Zm9.771 6.925a0.962 0.962 0 0 1 -1.254 -0.014l-5.7 -4.991 1.555 -1.555 4.15 3.321a0.964 0.964 0 0 0 1.356 -0.151l3.7 -4.626 1.844 -0.737 -1.364 5.183ZM2.895 44.946a0.965 0.965 0 0 1 0 -1.93h17.37a0.965 0.965 0 1 1 0 1.93Zm0.965 3.86v-1.93H19.3v1.93A2.9 2.9 0 0 1 16.4 51.7H6.755A2.9 2.9 0 0 1 3.86 48.806Zm11.949 4.825l-0.965 1.93h-2.3v-1.93Zm-5.194 0v1.93h-2.3l-0.965 -1.93Zm45.355 5.79H1.93v-1.93H55.97Z">
+                    <aapt:attr name="android:fillColor">
+                        <gradient
+                            android:endX="29.00089"
+                            android:endY="61.351"
+                            android:startX="29.00089"
+                            android:startY="4.412761"
+                            android:tileMode="clamp">
+                            <item
+                                android:color="#FF6000"
+                                android:offset="0" />
+                            <item
+                                android:color="#FFA200"
+                                android:offset="1" />
+                        </gradient>
+                    </aapt:attr>
+                </path>
+            </group>
+        </group>
+        <group
+            android:translateX="38.6"
+            android:translateY="43.016">
+            <group
+                android:translateX="-320"
+                android:translateY="-324.416">
+                <path android:pathData="M326.755 324.416h-5.79a0.965 0.965 0 0 0 -0.965 0.965v2.895a3.86 3.86 0 1 0 7.72 0v-2.895A0.965 0.965 0 0 0 326.755 324.416Zm-0.965 3.86a1.93 1.93 0 1 1 -3.86 0v-1.93h3.86Z">
+                    <aapt:attr name="android:fillColor">
+                        <gradient
+                            android:endX="323.86"
+                            android:endY="332.136"
+                            android:startX="323.86"
+                            android:startY="324.416"
+                            android:tileMode="clamp">
+                            <item
+                                android:color="#FF6000"
+                                android:offset="0" />
+                            <item
+                                android:color="#FFA200"
+                                android:offset="1" />
+                        </gradient>
+                    </aapt:attr>
+                </path>
+            </group>
+        </group>
+        <group
+            android:translateX="10.615"
+            android:translateY="33.366">
+            <group
+                android:translateX="0.385"
+                android:translateY="-0.015">
+                <path android:pathData="M0 0H2V5H0V0Z">
+                    <aapt:attr name="android:fillColor">
+                        <gradient
+                            android:endX="1"
+                            android:endY="5"
+                            android:startX="1"
+                            android:tileMode="clamp">
+                            <item
+                                android:color="#FF6000"
+                                android:offset="0" />
+                            <item
+                                android:color="#FFA200"
+                                android:offset="1" />
+                        </gradient>
+                    </aapt:attr>
+                </path>
+            </group>
+        </group>
+        <group
+            android:translateX="15.44"
+            android:translateY="35.296">
+            <group
+                android:translateX="-0.44"
+                android:translateY="0.055">
+                <path android:pathData="M0 0H2V4H0V0Z">
+                    <aapt:attr name="android:fillColor">
+                        <gradient
+                            android:endX="1"
+                            android:endY="4"
+                            android:startX="1"
+                            android:tileMode="clamp">
+                            <item
+                                android:color="#FF6000"
+                                android:offset="0" />
+                            <item
+                                android:color="#FFA200"
+                                android:offset="1" />
+                        </gradient>
+                    </aapt:attr>
+                </path>
+            </group>
+        </group>
+        <group
+            android:translateX="5.79"
+            android:translateY="35.296">
+            <group
+                android:translateX="0.21"
+                android:translateY="0.055">
+                <path android:pathData="M0 0H2V4H0V0Z">
+                    <aapt:attr name="android:fillColor">
+                        <gradient
+                            android:endX="1"
+                            android:endY="4"
+                            android:startX="1"
+                            android:tileMode="clamp">
+                            <item
+                                android:color="#FF6000"
+                                android:offset="0" />
+                            <item
+                                android:color="#FFA200"
+                                android:offset="1" />
+                        </gradient>
+                    </aapt:attr>
+                </path>
+            </group>
+        </group>
+        <group
+            android:translateX="10.615"
+            android:translateY="29.506">
+            <group
+                android:translateX="0.385"
+                android:translateY="-0.155">
+                <path android:pathData="M0 0H2V2H0V0Z">
+                    <aapt:attr name="android:fillColor">
+                        <gradient
+                            android:endX="1"
+                            android:endY="2"
+                            android:startX="1"
+                            android:tileMode="clamp">
+                            <item
+                                android:color="#FF6000"
+                                android:offset="0" />
+                            <item
+                                android:color="#FFA200"
+                                android:offset="1" />
+                        </gradient>
+                    </aapt:attr>
+                </path>
+            </group>
+        </group>
+        <group
+            android:translateX="5.79"
+            android:translateY="31.436">
+            <group
+                android:translateX="0.21"
+                android:translateY="-0.085">
+                <path android:pathData="M0 0H2V2H0V0Z">
+                    <aapt:attr name="android:fillColor">
+                        <gradient
+                            android:endX="1"
+                            android:endY="2"
+                            android:startX="1"
+                            android:tileMode="clamp">
+                            <item
+                                android:color="#FF6000"
+                                android:offset="0" />
+                            <item
+                                android:color="#FFA200"
+                                android:offset="1" />
+                        </gradient>
+                    </aapt:attr>
+                </path>
+            </group>
+        </group>
+        <group
+            android:translateX="15.44"
+            android:translateY="31.436">
+            <group
+                android:translateX="-0.44"
+                android:translateY="-0.085">
+                <path android:pathData="M0 0H2V2H0V0Z">
+                    <aapt:attr name="android:fillColor">
+                        <gradient
+                            android:endX="1"
+                            android:endY="2"
+                            android:startX="1"
+                            android:tileMode="clamp">
+                            <item
+                                android:color="#FF6000"
+                                android:offset="0" />
+                            <item
+                                android:color="#FFA200"
+                                android:offset="1" />
+                        </gradient>
+                    </aapt:attr>
+                </path>
+            </group>
+        </group>
+    </group>
+</vector>

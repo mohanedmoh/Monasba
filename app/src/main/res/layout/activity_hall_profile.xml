@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bgwhite"
+    tools:context=".hall_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:auto_cycle="true"
+                app:corner_radius="20"
+                app:delay="0"
+                app:period="3000" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/handlee"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="5dp"
+                    android:text="123412"
+                    android:textSize="18sp" />
+            </com.google.android.material.card.MaterialCardView>
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/package_include"
+            layout="@layout/hall_package_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/meal_include"
+            layout="@layout/hall_meal_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:visibility="gone" />
+
+
+        <!--  <com.hariofspades.incdeclibrary.IncDecCircular
+              android:id="@+id/num_of_meals"
+              android:layout_width="wrap_content"
+              android:layout_height="80dp"
+              app:leftButtonColorTint="@color/colorPrimaryDark"
+              app:leftDrawable="@drawable/ic_remove_black_24dp"
+              app:leftDrawableTint="@color/white"
+              app:rightButtonColorTinit="@color/colorPrimary"
+              app:rightDrawable="@drawable/ic_add_black_24dp"
+              app:rightDrawableTint="@color/white"
+              app:textColor="@color/white"
+              app:textSize="44" />-->
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:visibility="visible"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/handlee"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/details"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/hall_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:fontFamily="@font/handlee"
+                    android:lineSpacingExtra="4sp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/longstring" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <View
+            style="@style/Divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:visibility="visible"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/map_include"
+                    layout="@layout/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".93"
+            android:paddingLeft="40dp"
+            android:paddingTop="25dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="25dp">
+
+            <Button
+                android:id="@+id/reserve"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradian_background"
+                android:fontFamily="@font/handlee"
+                android:text="@string/reserve"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:theme="@style/Theme.MaterialComponents"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:id="@+id/card"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:theme="@style/AppTheme"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/meal_image"
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:src="@drawable/logo"
+            android:theme="@style/AppTheme" />
+
+        <TextView
+            android:id="@+id/meal_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/handlee"
+            android:text="@string/name_test"
+            android:textSize="12sp"
+            android:theme="@style/AppTheme" />
+
+        <TextView
+            android:id="@+id/meal_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/handlee"
+            android:text="@string/name_test"
+            android:textSize="12sp"
+            android:theme="@style/AppTheme" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

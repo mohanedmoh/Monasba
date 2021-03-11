@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/limo_policy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".4" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.6"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <CheckBox
+            android:id="@+id/requirement_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/handlee"
+            android:text="@string/agreetoterm"
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

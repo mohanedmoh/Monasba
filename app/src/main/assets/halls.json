@@ -1,0 +1,200 @@
+[
+  {
+    "id": 44,
+    "name": "صالة ماجستك",
+    "phone": "0900020024",
+    "phone1": "0900020024",
+    "phone2": "0912284008",
+    "address": "صالة ماجستك، Khartoum, Sudan",
+    "text": "تسع  1200 شخص \r\nشارع المطار شرق بنك المال المتحد",
+    "people_no": 1100,
+    "include_meal": 1,
+    "type": 1,
+    "city_id": 1,
+    "lat": 15.559464,
+    "lng": 32.5569715,
+    "status": 1,
+    "created_at": "2020-10-10 20:37:38",
+    "updated_at": "2020-10-10 20:37:38",
+    "PM": {
+      "Meals": [
+        {
+          "id": 28,
+          "name": "الصحن الذهبي",
+          "img_url": null,
+          "user_id": 47,
+          "price_id": null,
+          "branch_id": 44,
+          "status": 1,
+          "created_at": "2020-10-13 17:36:11",
+          "updated_at": "2020-10-13 17:36:11",
+          "price": 900,
+          "item": []
+        },
+        {
+          "id": 29,
+          "name": "الصحن الفضي",
+          "img_url": null,
+          "user_id": 47,
+          "price_id": null,
+          "branch_id": 44,
+          "status": 1,
+          "created_at": "2020-10-13 17:36:27",
+          "updated_at": "2020-10-13 17:36:27",
+          "price": 600,
+          "item": []
+        }
+      ],
+      "Packages": [
+        {
+          "id": 34,
+          "name": "الخدمات",
+          "img_url": null,
+          "price_id": null,
+          "price": 0,
+          "items": [
+            {
+              "id": 82,
+              "name": "تصوير فتوغرافي",
+              "branch_id": 44,
+              "created_at": "2020-10-13 17:33:32"
+            },
+            {
+              "id": 83,
+              "name": "تصوير فديو",
+              "branch_id": 44,
+              "created_at": "2020-10-13 17:33:50"
+            },
+            {
+              "id": 84,
+              "name": "تصوير استديو ماجستك",
+              "branch_id": 44,
+              "created_at": "2020-10-13 17:34:22"
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "الساعة الاضافية",
+          "img_url": null,
+          "price_id": null,
+          "price": 0,
+          "items": [
+            {
+              "id": 85,
+              "name": "11:00 الي 12:00 غير شاملة التصوير",
+              "branch_id": 44,
+              "created_at": "2020-10-13 17:35:44"
+            }
+          ]
+        }
+      ]
+    },
+    "policy": null,
+    "free": 1,
+    "prices": [
+      {
+        "type_id": 2,
+        "price": 180000
+      },
+      {
+        "type_id": 1,
+        "price": 0
+      }
+    ],
+    "extra_hours": [
+      {
+        "type_id": 2,
+        "price": 10000
+      },
+      {
+        "type_id": 1,
+        "price": 0
+      }
+    ],
+    "city": {
+      "id": 1,
+      "name": "الخرطوم"
+    },
+    "images": [
+      {
+        "id": 182,
+        "url": "public\/halls_images\/Dfp7rgVBy1jWJjXnrAYdl6ufZch3B8nlaQn6LJam.jpeg",
+        "thumbnail": "1602538549.jpeg",
+        "created_at": "2020-10-12 21:35:50"
+      },
+      {
+        "id": 183,
+        "url": "public\/halls_images\/5oHEwZidvJ0722tba70nK5YHYHvUiuEnDeWtfbb8.jpeg",
+        "thumbnail": "1602538550.jpeg",
+        "created_at": "2020-10-12 21:35:50"
+      },
+      {
+        "id": 184,
+        "url": "public\/halls_images\/aHZEbexkjD2QXqz7yNCbkRGml58g5cgIXWw53aKu.jpeg",
+        "thumbnail": "1602538550.jpeg",
+        "created_at": "2020-10-12 21:35:50"
+      },
+      {
+        "id": 185,
+        "url": "public\/halls_images\/ZZP2hAVvAX3H8mE67U1q39dqvLZK0xle0x9PE47R.jpeg",
+        "thumbnail": "1602538550.jpeg",
+        "created_at": "2020-10-12 21:35:50"
+      },
+      {
+        "id": 186,
+        "url": "public\/halls_images\/zWgzfM8V7dxzyPijocYDjNzOzLBIqGtUr4N2gTPS.jpeg",
+        "thumbnail": "1602538550.jpeg",
+        "created_at": "2020-10-12 21:35:50"
+      },
+      {
+        "id": 187,
+        "url": "public\/halls_images\/ugOmMBmpfpvBIPBobLU6mIrIYSpCLJG4tb6j1xHm.jpeg",
+        "thumbnail": "1602538605.jpeg",
+        "created_at": "2020-10-12 21:36:46"
+      },
+      {
+        "id": 188,
+        "url": "public\/halls_images\/6HpkffrpLCpMWdvQxJz2D1EJLjGvjC0Q2ubLgSC1.jpeg",
+        "thumbnail": "1602538606.jpeg",
+        "created_at": "2020-10-12 21:36:46"
+      },
+      {
+        "id": 189,
+        "url": "public\/halls_images\/ALe9t8lcnIwXJrYSe9WVpUkSeURTjIcZy0fZ2mYW.jpeg",
+        "thumbnail": "1602538606.jpeg",
+        "created_at": "2020-10-12 21:36:46"
+      },
+      {
+        "id": 190,
+        "url": "public\/halls_images\/KeiBqyV5vjgLF8YPWOj0eflnxWO0TjTpMkxwtrSz.jpeg",
+        "thumbnail": "1602538792.jpeg",
+        "created_at": "2020-10-12 21:39:52"
+      },
+      {
+        "id": 191,
+        "url": "public\/halls_images\/FBHfKK2r7aZpwzenJQpOoCaqaOrTOi8oEZH9qmKT.jpeg",
+        "thumbnail": "1602538792.jpeg",
+        "created_at": "2020-10-12 21:39:52"
+      },
+      {
+        "id": 192,
+        "url": "public\/halls_images\/ZSiK2eayylgFudUxybihFoOub2ymyKmWXhmnDJGk.jpeg",
+        "thumbnail": "1602538792.jpeg",
+        "created_at": "2020-10-12 21:39:53"
+      },
+      {
+        "id": 193,
+        "url": "public\/halls_images\/Wq6ARQUWIXOWE2nuawCdwta1KkJObn7fTWB7M1sX.jpeg",
+        "thumbnail": "1602538793.jpeg",
+        "created_at": "2020-10-12 21:39:53"
+      },
+      {
+        "id": 194,
+        "url": "public\/halls_images\/bFPfeGagEYqlRPMirnYRUnPVTSiDbPEkTeFpt5xC.jpeg",
+        "thumbnail": "1602538793.jpeg",
+        "created_at": "2020-10-12 21:39:53"
+      }
+    ]
+  }
+]

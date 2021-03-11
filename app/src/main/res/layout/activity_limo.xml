@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgwhite"
+    tools:context=".seera">
+
+    <FrameLayout
+        android:id="@+id/frame_done"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/limo_req_pendding"
+            layout="@layout/seera_req_pendding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:background="@null"
+            android:foregroundGravity="center">
+
+            <com.kofigyan.stateprogressbar.StateProgressBar
+                android:id="@+id/status_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:soundEffectsEnabled="true"
+                app:spb_animateToCurrentProgressState="true"
+                app:spb_checkStateCompleted="true"
+                app:spb_currentStateDescriptionColor="@color/colorPrimary"
+                app:spb_maxStateNumber="three"
+                app:spb_stateBackgroundColor="#BDBDBD"
+                app:spb_stateDescriptionColor="@color/secondary_text"
+                app:spb_stateForegroundColor="@color/colorPrimary"
+                app:spb_stateLineThickness="7dp"
+                app:spb_stateNumberBackgroundColor="#808080"
+                app:spb_stateNumberForegroundColor="#eeeeee"
+                app:spb_stateNumberIsDescending="false"
+                app:spb_stateSize="30dp" />
+        </RelativeLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".33">
+
+            <include
+                android:id="@+id/limo_form_include"
+                layout="@layout/limo_reservation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible" />
+
+            <include
+                android:id="@+id/limo_requirements_include"
+                layout="@layout/limo_policies"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/limo_reserver_info_include"
+                layout="@layout/limo_reserver_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/next_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_weight="1.37"
+            android:background="@android:color/transparent"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/back_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/darkButton"
+                    android:fontFamily="@font/handlee"
+                    android:text="@string/back"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/next_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/handlee"
+                    android:text="@string/next"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

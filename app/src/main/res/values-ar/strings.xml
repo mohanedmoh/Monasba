@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Monasba</string>
+    <string name="home">الرئيسية</string>
+    <string name="name_test" translatable="false">mohaned mohamed omran</string>
+    <string name="countdown_exmp" translatable="false">00:00:01:00</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="app_ver" translatable="false">Version 1.0.0</string>
+
+
+    <string name="profile">الملف الشخصي</string>
+
+    <string name="username">اسم المستخدم</string>
+
+    <string name="aboutus">تواصل معنا </string>
+
+    <string name="check_internet">الرجاء التحقق من إتصالك بالإنترنت!</string>
+
+    <string name="service_unavailable">هذه الخدمة ستتوفر قريبا</string>
+
+    <string name="press_back">إضغط تراجع مرة أخرى للخروج</string>
+
+    <string name="fill_error">الرجاء إكمال جميع الحقول أولا !</string>
+
+    <string name="try_later">الرجاء المحاولة مرة أخرى لاحقا</string>
+
+    <string name="verfication_code">رمز التحقق</string>
+
+    <string name="country">البلد</string>
+
+    <string name="num_of_ppl">عدد الحضور</string>
+
+    <string name="type_of_reservation">نوع الحجز</string>
+
+    <string name="night">ليلي</string>
+
+    <string name="day">نهاري</string>
+
+    <string name="request">طلب</string>
+
+    <string name="include_meal">الوجبة </string>
+    <string name="meal_yes">إجباري</string>
+    <string name="meal_no">إختياري</string>
+    <string name="yes">نعم</string>
+
+    <string name="no">لا</string>
+
+    <string name="search">بحث</string>
+
+    <string name="name">الاسم</string>
+
+    <string name="save">حفظ</string>
+
+    <string name="phone">رقم الهاتف</string>
+
+    <string name="email">البريد الإلكتروني</string>
+
+    <string name="password">كلمة المرور</string>
+
+    <string name="login">تسجيل الدخول</string>
+
+    <string name="enter_verfication">الرجاء إدخال رمز التحقق المرسل إليك</string>
+
+    <string name="forget_password">نسيت كلمة المرور ؟</string>
+
+    <string name="dont_have_account">ليس لديك حساب ؟</string>
+
+    <string name="signup">التسجيل</string>
+
+    <string name="verify">تحقق</string>
+
+    <string name="please_enter_number">سوف يتم إرسال رسالة تحقق … الرجاء إدخال مفتاح البلد ورقم الهاتف</string>
+
+    <string name="full_name">الاسم الكامل</string>
+
+    <string name="send">إرسال</string>
+
+    <string name="label_error_incorrect_phone">رقم الهاتف غير صحصح</string>
+
+    <string name="insure_dialog">سوف يتم التحقق من رقم الهاتف.</string>
+
+    <string name="is_this_ok">هل هذا الرقم صحيح ؟ أو تريد تعديله ؟</string>
+
+    <string name="ok">تم</string>
+
+    <string name="edit">تعديل</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">مرحبا .. قسم فارغ</string>
+
+    <string name="whatsapp_phone">رقم الواتس اب</string>
+
+    <string name="_9_123_456_78">0XXX XXX XXX</string>
+
+    <string name="gender">النوع</string>
+
+    <string name="edit_birthdate">إضغط هنا لتعديل تاريخ الميلاد</string>
+
+    <string name="date_example">YYYY-MM-DD</string>
+
+    <string name="service">نوع الخدمة</string>
+
+    <string name="certificates">الشهادات والخبرة</string>
+
+    <string name="city">المدينة</string>
+
+    <string name="bus_type">نوع العربة</string>
+
+    <string name="num_of_bus">عدد الباصات</string>
+
+    <string name="pickup_address">عنوان التحرك</string>
+
+    <string name="dropoff_address">عنوان الوصول</string>
+
+    <string name="main_phone">الهتاف الرئيسي </string>
+
+    <string name="sub_phone">الهاتف الثانوي</string>
+
+    <string name="halls">الصالات</string>
+
+    <string name="nemaSaving">وجبة الخير</string>
+
+    <string name="zfa">الزفة</string>
+
+    <string name="photographer">المصور الفوتوغرافي</string>
+
+    <string name="barber">حلاق</string>
+
+    <string name="hairdresser">ميكب ارتست</string>
+
+    <string name="hotels">الفنادق والشقق</string>
+
+    <string name="honey_moon">شهر العسل</string>
+
+    <string name="bus">السيرة</string>
+
+    <string name="meeting_halls">غرف الإجتماعات</string>
+
+    <string name="org_group">تنظيم مجموعات</string>
+
+    <string name="kitchens">مطابخ</string>
+
+    <string name="outdoor_halls">صالات خارجية</string>
+
+    <string name="party_designer">مصمم حفلات</string>
+
+    <string name="retype_password">إعادة كلمة المرور</string>
+
+    <string name="packages">الباقات</string>
+
+    <string name="meal_offers">عروض الوجبات</string>
+
+    <string name="details">التفاصيل</string>
+
+    <string name="longstring">fioewjfiuehf fiunvekjrn rjhjhrf hjebf brfjbrfioewjfiuehf fiunvekjrn rjhjhrf hjebfhre uehf fiunvekjrn rjhjhrf hjebfhre fioewjfiuehf fiunvekjn rjhjhrf hjebfhre vjrefjb efbjbf brfjbrfioewjfiuehf fiunvekjrn rjhjhrf hjebfhre fioewjfiuehf fiunvekjrn rjhjhrf hjebfhre vjrefjb efbjbf brfjbrfioewjfiuehf fiunvekjrn rjhjhrf hjebfhre fioewjfiuehf fiunvekjrn rjhjhrf hjebfhre vjrefjb efbjbf brfjbrfioewjfiuehf fiunvekjrn rjhjhrf hjebfhre vjrefjb efbjbf brfjbrfioewjfiuehf fiunvekjrn rjhjhrf hjebfhre vjrefjb efbjbf brfjbr</string>
+
+    <string name="select">إختيار</string>
+
+    <string name="faq">الأسئلة المتكررة</string>
+
+    <string name="agreement">سياسة الإستخدام</string>
+
+    <string name="unavailable">هذه الخدمة غير متوفرة حاليا … الرجاء المحاولة لاحقا</string>
+
+    <string name="num1">0 – 500</string>
+
+    <string name="num2">501 – 1000</string>
+
+    <string name="num3">1001 – 1500</string>
+
+    <string name="num4">1501 – 2000</string>
+
+    <string name="intro">تفاصيل عرسك كلها في تطبيق واحد أحجز الصالة/الأوت دور، الاستوديو و عروض شهر العسل و أكتر</string>
+
+    <string name="password_unmatch">الرجاء التأكد من كلمة المرور</string>
+
+    <string name="wrong_password">خطاء في رقم الهاتف أو كلمة المرور</string>
+
+    <string name="next">التالي</string>
+
+    <string name="back">تراجع</string>
+
+    <string name="hall_res1">الحجز </string>
+
+    <string name="hall_res2">شروط الصالة</string>
+
+    <string name="hall_res3">الفاتورة</string>
+    <string name="limo_req1">البيانات</string>
+
+    <string name="limo_req2">شروط الحجز</string>
+    <string name="limo_req3">بيانات التواصل</string>
+
+    <string name="seera_req1">البيانات</string>
+
+    <string name="seera_req2">المتطلبات</string>
+
+    <string name="seera_req3">الفاتورة</string>
+
+    <string name="seera_req4">تم</string>
+
+    <string name="phone1">رقم الهاتف 1</string>
+
+    <string name="phone2">رقم الهاتف 2</string>
+
+    <string name="name1">الاسم 1</string>
+
+    <string name="name2">الاسم 2</string>
+
+    <string name="agreetoterm">أنا أوافق علي الشروط والأحكام</string>
+
+    <string name="signout">تسجيل الخروج</string>
+
+    <string name="usage_agreement">
+
+        تعاريف مستخدمة في هذه الاتفاقية:
+\n
+العميل : هو طالب  الخدمة مستخدم التطبيق
+        \n
+مقدم الخدمة : هو  من يسجل في التطبيق  كمقدم خدمه من خلال التطبيق
+        \n
+الزائر : هو من يستخدم  الموقع بدون التسجيل فيه
+        \n
+الإشعارات : هي  إشعارات الهاتف عند  تحميلك تطبيق مناسبة.
+        \n
+
+شروط عامه :-
+        \n
+بما اننا نهتم بحقك يرجي الاطلاع علي هذه الشروط والاحكام بتروي قبل استخدام التطبيق
+        \n
+
+\u25CF	مناسبة هو تطبيق الكتروني للهواتف الزكيه وهو احد تطبيقات شركة لاندتيك للتكنولوجيا والنظم الرقميه التي تاسست في جمهورية السودان
+        \n
+\u25CF	باستخدامك او تنزيل تطبيق مناسبة فانك توافق علي الشروط والاحكام علي النحو المبين في هذاء الشعار القانوني والتي تنطبق علي جميع الزيارات الان ومستقبلا بما في ذالك الاحكام والشروط الاضافيه والبيانات المذكوره اعلاه
+        \n
+\u25CF	ستخضع ايضا شروط الخدمه علي اي اضافات او ميزات جديده تضاف للتطبيق
+        \n
+\u25CF	يمكنك مراجعة احدث اصدار من شروط الخدمه في اي وقت من علي هذه الصفحة ومن مسؤليتك التحقق من هذه الصفحة وبشكل دوري من أجل التغيرات وباستخدامك التطبيق بعد نشر اي تغيرات يعد قبولا لهذه التغيرات
+        \n
+\u25CF	نحتفظ في الحق في تحديث او تغير او استبدال اي جزء من شروط الخدمة هذه عن طريق نشر او  التغيرات علي هذه الصفحة ولن يكون لها أثر رجعي علي اي حجوزات تمت مسبقا من خلال التطبيق
+        \n
+\u25CF	لا يجوز استخدام خدماتنا الاي غرض غير قانوني أو غير مصرح به
+        \n
+\u25CF	يعمل تطبيق مناسبة قدر الامكان علي توفير المعلومات علي التطبيق بأكبر دقه ممكنه مع ذالك فان بعض الاخطاء قد تحدث من وقت لأخر أن شركة لاندتيك لاتتحمل ائ مسؤليه عن الاخطاء ف المعلومات التي يتضمنها التطبيق .
+        \n
+\u25CF	يستخدم تطبيق مناسبة  كل الوسائل لضمان جاهزية  التطبيق واتاحة كل الخدمات المرتبطة به، ولكن لا يمكن لها أن تضمن عمله بشكل مستمر أو بدون انقطاع
+        \n
+\u25CF	إن تطبيق مناسبة لا يملك أي ضمانات، سواء صريحة أو ضمنية، بخصوص محتوى  التطبيق، ويملك الحق بالتنازل عن جميع الضمانات وذلك وفقا لأقصى مدى متاح في القانون المعمول به. إن وصولك واستخدامك للبرمجيات وغيرها من المواد، أو من خلال  التطبيق، يقع على مسؤوليتك الشخصية. إن تطبيق مناسبة لا تقدم أية ضمانات حول الدقة أو الخلو من الفيروسات لمثل هذه البرامج.
+        \n
+\u25CF	تقع على مسؤوليتك الشخصية التقيد بجميع شروطنا و أحكامنا الخاصة والتي تتضمن ،على سبيل المثال لا الحصر، الدفع الكامل وفي الوقت المحدد لجميع المبالغ المستحقة مع الامتثال لجميع القواعد المتعلقة حول توفر الأسعار ، المنتجات، أو الخدمات، جميع الرسوم المترتبة على استخدام التطبيق.
+        \n
+\u25CF	عدم الوصول أو مراقبة أو نسخ أي محتوى أو معلومة من هذا التطبيق باستخدام أي روبوت أو سبايدر أو سكرابر أو أي وسائل آلية أخرى أو أي عملية يدوية بدون الإذن الكتابي الصريح.
+        \n
+\u25CF	سيتم الخصم من بطاقتك المصرفيه  عند قيامك بعملية الحجز.
+        \n
+\u25CF	تطبيق مناسبة لا يتحمل أي مسؤولية ولا تكون مسؤول عن أي خسارة، أو ضرر، أو فقدان، دخول غير مصرح به مرتبط ببيانات بطاقة الائتمان أو بطاقة الخصم المباشر. ولا تتحمل مسؤولية قرارك باستخدام معلومات بطاقة الائتمان أو بطاقة الخصم المباشر على هذا الموقع بالرغم من قيام تطبيق مناسبة بإعلامك عن احتمالية حدوث هذه الأضرار.
+        \n
+\u25CF	 إنك توافق على درء الضرر عنا وتعويضنا عن كافة الالتزامات والخسائر والدعاوى والنفقات (بما في ذلك الرسوم القانونية) والأضرار (سواء المباشرة أو غير المباشرة) التي تنشأ عن المطالبات الناتجة عن استخدامك لهذا التطبيق ، بما في ذلك ودون حصر أي مطالبات تتضمن مزاعم تثبت صحتها وتشكل انتهاكاً من جانبك لهذه الاتفاقية.
+        \n
+\u25CF	ان استخدامك للتطبيق  ولشروطه وأحكامه يخضع لقوانين جمهورية السودان  وستوافق على الخضوع للسلطة القضائية
+        \n
+\u25CF	استخدامك  ك عضو طالب خدمة في تطبيق مناسبة  من أي خدمات ليس عليه أي رسوم أو مقابل مالي أو عموله ومن يدعي من مقدمي الخدمات لدينا المسجلين في التطبيق بأن عمولة التطبيق يقوم بها العميل غير صحيح  ويرجى تزويدنا بمعلومات مقدم الخدمة وسيتم حذف عضويته من التطبيق بدون سابق انذار
+        \n
+
+\u25CF	تخضع جميع محتويات تطبيق مناسبة لحقوق الطبع والنشر
+\n
+\u25CF	تخضع قوانين تطبيق مناسبة  لقوانين جمهورية السودان  . وهو القانون  المعتمد في فض أي نزاعات أو مطالبات سواء المحلية أو الدولية
+\n
+شروط الحجز :-
+\n
+\u25CF	عندما يتم الحجز عن طريق تطبيق مناسبة ، فإنك تلتزم وتوافق كلياً على جميع شروط الحجز المفروضة من مقدم الخدمة، والتي تضم قوانين الإلغاء وعدم الحضور، وأي شروط أخرى تفرض عليك أثناء الإقامة أو الحجز، بما في ذلك الخدمات المتاحة و المنتجات التي يوفرها مقدم الخدمة (من الممكن تحصيل الشروط والأحكام الإضافية الخاصة من مكان الإقامة المحدد)
+\n
+\u25CF	ينبغي عليك التواصل مع تطبيق مناسبة في حال رغبت بإلغاء حجز ك (القابل للالغاء) قبل حلول موعد الحجز، ولكن إذا احتمل تأخر وصولك عن موعد تسجيل الدخول أو في عدم إمكانية التسجيل في يوم حجزك فعليك التواصل مباشرة مع مقدم الخدمة وإخبارهم بذلك
+\n
+\u25CF	 وقد لا تكون مخولاً لاسترداد أموالك، وذلك وفقاً للشروط والاحكام الخاصة بمقدم الخدمة
+\n
+
+\u25CF	تختلف سياسة إلغاء الحجز بين أماكن الإقامة. فبعض الحجوزات غير قابلة للتغيير أو الإلغاء، وقد يفرض مقدم الخدمة  رسوماً معينة على إلغاء الحجز، بينما يتيح بعضها الآخر استرداد مبلغ الحجز بالكامل. يرجى الملاحظة بأن بعض الحجوزات بأسعار معينة أو عروض خاصة غير مؤهلة للتغيير أو الإلغاء
+\n
+\u25CF	تتوفر سياسة تغيير الحجز أو الإلغاء الخاصة بمقدم الخدمة  على تحت بند “شروط الحجز”، “سياسة الإلغاء” أو ما شابه ذلك ،ننصحك بالتأكد من وقراءة سياسة الإلغاء وسياسة عدم الحضور الخاصة بمكان الإقامة قبل إتمام عملية الحجز
+\n
+\u25CF	بغض النظر عن سياسة تغيير أو إلغاء الحجز لمقدم الخدمة ، يحتفظ تطبيق مناسبة  بالحق في فرض رسوم معينة على تغيير أو إلغاء الحجز.
+\n
+\u25CF	إذا لم تتوفر بعض المرافق التي تم حجزها بناءً على طلبك لدى مقدم الخدمة ، ننصحك بتقديم شكوى إلى إدارة مقدم الخدمة . ولكن تطبيق مناسبة لا تعدك أو تضمن لك توافر أي من الطلبات التي قمت بطلبها مسبقاً
+\n
+\u25CF	ستقوم بإعلام كل الأشخاص الآخرين الذين سوف تقوم بالحجز بالنيابة عنهم عن الأحكام التي استخدمت بالحجز الذي قمت به ، بما في ذلك جميع القواعد والقيود المطبقة عليها
+\n
+\u25CF	lن الممكن لتطبيق مناسبة أن يقوم بالإلغاء، وبدون سابق إنذار، كل الحجوزات الي جهه او جهات متعدده وفي نفس التاريخ
+
+    </string>
+
+    <string name="reserve">حجز</string>
+
+    <string name="agree_term">الرجاء الموافقة علي الشروط والأحكام.</string>
+
+    <string name="b_reservation_type">\u25CF نوع الحجز</string>
+
+    <string name="b_hall_name">\u25CF اسم الصالة</string>
+
+    <string name="b_city">\u25CF المدينة</string>
+
+    <string name="b_date">\u25CF التاريخ</string>
+
+    <string name="b_package">\u25CF الباقة</string>
+
+    <string name="b_meal">\u25CF الوجبة</string>
+
+    <string name="b_num_of_people">\u25CF عدد الحضور</string>
+
+    <string name="b_include_meal">\u25CF تضمين الوجبة</string>
+
+    <string name="b_total_price">\u25CF إجمالي السعر</string>
+
+    <string name="b_bus_type">\u25CF نوع البص</string>
+
+    <string name="b_num_of_bus">\u25CF عدد الباصات</string>
+
+    <string name="b_pickup_address">\u25CF عنوان التحرك</string>
+
+    <string name="b_dropoff_address">\u25CF عنوان الوصول</string>
+
+    <string name="b_main_phone">\u25CF الهاتف الأساسي</string>
+
+    <string name="b_sub_phone">\u25CF الهاتف الثانوي</string>
+
+    <string name="duplicate_phone">هذا الهاتف مسجل مسبقا !</string>
+
+    <string name="payment_method"> طريقة الدفع</string>
+
+    <string name="payment">الدفع</string>
+
+    <string name="seera_night_time">(06:00 PM - 12:00 AM)</string>
+
+    <string name="seera_day_time">(11:00 AM - 06:00 PM)</string>
+
+    <string name="pendding_req">الطلب تحت المعالجة</string>
+
+    <string name="pendding_req_msg">سوف يتم التواصل معاك لتاكيد الحجز يمكنك متابعة طلبك من خلال صفحة مدير الطلبات</string>
+
+    <string name="choose_payment"> \u25CF الرجاء إختيار واحدة من طرق الدفع</string>
+
+    <string name="loading">تحميل … </string>
+
+    <string name="error_loading">خطاء في التحميل !</string>
+
+    <string name="unselect">إلغاء الإختيار</string>
+
+    <string name="order_type">نوع الطلب</string>
+
+    <string name="order_no">رقم الطلب</string>
+
+    <string name="more_info">اعرف المزيد</string>
+
+    <string name="view_status">عرض الحالة</string>
+
+    <string name="req_status">الحالة</string>
+
+    <string name="status1">بدء المعالجة</string>
+
+    <string name="status2">تحت المعالجة</string>
+
+    <string name="status3">مكتمل</string>
+
+    <string name="delete_verfication">مسح الطلب برقم :</string>
+
+    <string name="cancel">إلغاء</string>
+
+    <string name="request_manager">مدير الطلبات</string>
+
+    <string name="seera_status1" />
+
+    <string name="seera_status2" />
+
+    <string name="seera_status3" />
+
+    <string name="hall_status1" />
+
+    <string name="hall_status2" />
+
+    <string name="hall_status3" />
+
+    <string name="payment_type">نوع الدفع</string>
+
+    <string name="full">مكتمل</string>
+
+    <string name="parts">عربون</string>
+
+    <string name="num_of_meals">عدد الصحون</string>
+
+    <string name="b_hall_price"> \u25CF سعر الصالة</string>
+
+    <string name="b_package_price">\u25CF سعر الباقة</string>
+
+    <string name="b_meal_price"> \u25CF سعر الوجبة</string>
+
+    <string name="succesful_res"> الحجز ناجح </string>
+
+    <string name="check_payment">تحقق من حالة الدفع الإلكتروني مجددا</string>
+
+    <string name="choose_reservation_type_error">الرجاء إختيار نوع الحجز</string>
+
+    <string name="choose_include_meal_error">الرجاء إختيار هل الوجبة إجبارية ام لا</string>
+
+    <string name="choose_payment_type_error">الرجاء إختيار نوع الدفع</string>
+
+    <string name="deleted_successfully">تم المسح بنجاح </string>
+
+    <string name="waiting_payment">في إنتظار الدفع</string>
+
+    <string name="waiting_approval">في إنتظار التأكيد</string>
+
+    <string name="approved">مؤكد</string>
+
+    <string name="payed">مدفوع</string>
+
+    <string name="no_result">لا توجد نتيجة مطابقة … الرجاء المحاولة مرة أخرى</string>
+
+    <string name="done">تم</string>
+
+    <string name="check_meals">الرجاء التححق من إختيار وجبة … فهذا إجباري من طرف الصالة</string>
+
+    <string name="check_meals_num">الرجاء التحقق من عدد الوجبات</string>
+
+    <string name="pay">إدفع</string>
+    <string name="phone_length_error">الرجاء التأكد من رقم الهاتف</string>
+    <string name="reserved">محجوزة</string>
+    <string name="free">متوفرة</string>
+    <string name="sdg">جنيه سوداني</string>
+    <string name="please_wait">الرجاء الأنتظار</string>
+    <string name="no_data">لا توجد نتائج</string>
+    <string name="hall_search">البحث</string>
+    <string name="phone_other">رقم هاتف اخر</string>
+    <string name="grace_saving_desc">وجبة الخير هي خدمة خيريه مقصود منها التبرع بالفائض من وجبة المناسبة للمحتاجين عن طريق المنظمات الخيريه ، قم بالاتصال بارقام المنظمات حسب المنطقه الجغرافيه داخل التطبيق وسوف تقوم المنظمة بنقل الوجبات  واعادة  تعبتها وتوزيعها .</string>
+    <string name="test_search">تجربة عملية الحجز</string>
+    <string name="meals">الوجبات</string>
+    <string name="service_soon">هذه الخدمة غير متوفرة حاليا</string>
+    <string name="forget_password_title">نسيت كلمة المرور</string>
+    <string name="password_new">كلمة المرور الجديدة</string>
+    <string name="package_selected">الباقة المختارة :</string>
+    <string name="cash_payment_text">الدفع نقداّ في مكتب ادارة الصالة</string>
+    <string name="delete_req">حذف الطلب</string>
+    <string name="insure">تأكيد</string>
+    <string name="first_payment">الدفعية الأولة (30%)</string>
+    <string name="pickup_time">مواعيد الوصول</string>
+    <string name="click_to_set_time">إضغط لتحديد الزمن</string>
+    <string name="auto_calculate">يحسب تلقائياّ</string>
+    <string name="zafa_time_note">يحسب الزمن من مواعيد الوصول 8 ساعات الى مواعيد الغادرة</string>
+    <string name="delivery_address">موقع الأستلام</string>
+    <string name="dropoff_time">مواعيد المغادرة</string>
+    <string name="date_error">هذا التاريخ محجوز مسبقاّ</string>
+    <string name="car_name">اسم السيارة</string>
+    <string name="car_model">موديل السيارة</string>
+    <string name="date_info">التاريخ</string>
+    <string name="price">السعر</string>
+    <string name="req_id">رقم الطلب</string>
+    <string name="phone_hint"> 0912345678</string>
+
+</resources>

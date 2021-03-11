@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/hall_info_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="7dp"
+        app:cardMaxElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/handlee"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="18sp"
+                tools:text="Artist Name" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

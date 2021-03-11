@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.savvy.monasbat">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Limo"></activity>
+        <activity android:name=".forget_password" />
+        <activity android:name=".payments.payment" />
+        <activity android:name=".RequestManager" />
+        <activity android:name=".seera" />
+        <activity android:name=".payments.payment_webview" />
+        <activity android:name=".hall_reservation" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Login" />
+        <activity android:name=".Profile" />
+        <activity android:name=".result" />
+        <activity android:name=".hall_profile" />
+        <activity android:name=".search_halls" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/home" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.bushrapay.api.key"
+            android:value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjMzYTIwOGU3LWIxNWMtNGIxOC1iMmRkLTUzNDhhYWQ3Yzc3MyIsIm5iZiI6MTU5NTI3ODgyNiwiZXhwIjoyMDY4NTc4MDI2LCJpYXQiOjE1OTUyNzg4MjYsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3QvQVBJIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9BUEkifQ.AWQrwBXDBRpprAKK6bUVp_tfkgZZ9t5XHyJBDlja58M" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <service android:name=".Firebase.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
